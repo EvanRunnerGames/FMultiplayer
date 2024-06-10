@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" lang="en">
+    <title>FMultplayer</title>
+    <link rel="icon" href="fallout.ico" type="image/x-icon">
+
+    <style>
+
+        * {
+            padding: 0%;
+            margin: 0%;
+        }
+
+        body {
+            background-color: #181414 !important;
+        }
+
+
+        @font-face {
+        font-family: 'fallout';
+        src: url('fallout.ttf') format('truetype'); /* Adjust the path and format as needed */
+        font-weight: normal; /* Adjust font weight if needed */
+        font-style: normal; /* Adjust font style if needed */
+        }
+
+        .background1 {
+    position: relative; /* Ensure the container is positioned */
+    width: 100%; /* Set width */
+    height: 500px; /* Set height */
+    background-image: url('backgrounds/1.png'); /* Set background image */
+    background-size: cover; /* Adjust the image size */
+    background-position: center; /* Position the image */
+    align-items: center; /* Center vertically */
+}
+
+.background1::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px; /* Adjust height as needed */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+    pointer-events: none; /* Prevents the overlay from blocking interactions with the content */
+}
+
+
+
+
+
+        .text {
+            font-family: "fallout";
+            color: #ffffff;
+            margin: 0%;
+            padding: 5px;
+        }
+
+        .header {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-top: 180px;
+        }
+
+        ._2-way {
+            display: flex !important;
+            flex-direction: column;
+        }
+
+        .important {
+            font-family: "fallout";
+            color: #ffffff;
+            margin: 0%;
+            padding: 5px;
+            background-color: red !important;
+            text-align: center;
+        }
+
+    </style>
+
+</html>
+
+<h1 class="important">STILL IN DEVELOPMENT</h1>
+
+<div class="background1">
+    <div class="header">
+        <h1 class="text">WELCOME TO FMULTIPLAYER | Fallout Mutlplayer</h1>
+        <h2 class="text">A POST-NUCLEAR MASSIVELY MULTIPLAYER ONLINE ROLE-PLAYING GAME</h2>
+    </div>
+</div>
+
+<div class="_2-way">
+    <div class="description">
+        <h1 class="text">WHAT IS FMULTIPLAYER</h1>
+        <h3 class="text">FMULTIPLAYER is Fallout 1 but ONLINE it's a full recreation in python using the tkinker and pygame librarys</h3>
+        <h3 class="text">Fallout Mutliplayer takes place after Fallout 1's ending where the overseer banishes you from the vault</h3>
+        <h3 class="text">So instead of taking place in fallout 2 you can continue the story of fallout 1 in a multiplayer game</h3>
+        <h3 class="text">Fallout Mutliplayer is not a bethesda game it is a fan game, fallout multiplayer uses the assets from fallout</h3>
+        <h3 class="text">1 so you can get all the same armor and weapons, this game is still in development and so is the map so it</h3>
+        <h3 class="text">wil most likely be in a new area.</h3>
+    </div>
+
+    <h1 class="important">STILL IN DEVELOPMENT</h1>
+
+</div>
+
+
